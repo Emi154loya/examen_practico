@@ -16,7 +16,8 @@ pintoresController.list = (req, res)=>{
             res.render('../views/index',{
                 pintores: pintor,
                 titulo: "Listado de pintores",
-                year: new Date().getFullYear()
+                year: new Date().getFullYear(),
+                autor: "Emiliano Loya Flores"
             })
         })
 };
